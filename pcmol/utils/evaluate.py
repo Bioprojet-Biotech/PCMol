@@ -4,14 +4,14 @@ import wandb
 import os
 import datetime
 
-from pcmol.utils import PapyrusStandardizer
-from pcmol.config import EvaluatorConfig
+from utils import PapyrusStandardizer
+from config import EvaluatorConfig
 
 from rdkit.Chem import rdMolDescriptors
 from rdkit import Chem
 from rdkit import DataStructs
 
-from pcmol.utils.metrics import SAScore, calculate_property
+from utils.metrics import SAScore, calculate_property
 
 def add_property(df, smiles, prop):
     """

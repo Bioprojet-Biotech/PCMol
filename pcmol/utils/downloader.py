@@ -3,7 +3,7 @@ from re import S
 from urllib import request
 import zipfile
 import argparse
-from pcmol.config import dirs
+from config import dirs
 
 
 DATASET_URL_LITE = r'https://surfdrive.surf.nl/files/index.php/s/Gqy5vPOYJUHVaU7/download\?path\=%2F\&files\='

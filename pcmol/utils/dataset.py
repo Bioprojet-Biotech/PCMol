@@ -6,12 +6,12 @@ import random
 import numpy as np
 import pandas as pd
 from tqdm import tqdm
-from pcmol.utils.smiles import VocSmiles
+from utils.smiles import VocSmiles
 from torch.utils.data import Dataset as TorchDataset
-from pcmol.config import DatasetConfig
-from pcmol.utils.smiles import generate_alternative_smiles
+from config import DatasetConfig
+from utils.smiles import generate_alternative_smiles
 import matplotlib.pyplot as plt
-from pcmol.config import dirs
+from config import dirs
 
 ## Voc and dataset
 def load_voc(dataset_config: DatasetConfig):

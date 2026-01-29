@@ -1,6 +1,6 @@
 import os
-from pcmol.models.runner import Runner
-from pcmol.config import dirs
+from models.runner import Runner
+from config import dirs
 import pandas as pd
 
 ## Suppress RDKit warnings

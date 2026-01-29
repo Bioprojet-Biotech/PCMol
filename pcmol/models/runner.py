@@ -9,12 +9,12 @@ from tqdm import tqdm
 from torch import nn
 from torch.utils.data import DataLoader
 
-from pcmol.config import RunnerConfig, dirs
-from pcmol.models import AF2SmilesTransformer, count_parameters
-from pcmol.utils.smiles import check_smiles
-from pcmol.utils.dataset import load_dataset, load_voc
-from pcmol.utils.evaluate import Evaluator
-from pcmol.utils.downloader import download_protein_data
+from config import RunnerConfig, dirs
+from models import AF2SmilesTransformer, count_parameters
+from utils.smiles import check_smiles
+from utils.dataset import load_dataset, load_voc
+from utils.evaluate import Evaluator
+from utils.downloader import download_protein_data
 
 ## Suppress RDKit warnings
 from rdkit import RDLogger
